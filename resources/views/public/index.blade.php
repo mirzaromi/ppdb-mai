@@ -5,9 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/assets/public/assets/img/favicon.png">
-    <title>Sandbox</title>
+    <title>PPDB MAI Amanatul Ummah</title>
     <link rel="stylesheet" href="/assets/public/assets/css/plugins.css">
     <link rel="stylesheet" href="/assets/public/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/public/assets/css/colors/green.css">
 </head>
 
 <body class="onepage" data-bs-spy="scroll" data-bs-target=".navbar">
@@ -17,7 +18,7 @@
                 <div class="container flex-lg-row flex-nowrap align-items-center">
                     <div class="navbar-brand w-100">
                         <a href="/assets/public/index.html">
-                            <img src="/assets/public/assets/img/logo.png" srcset="/assets/public/assets/img/logo@2x.png 2x" alt="" />
+                            <img src="/img/Logo MAI Lengkap Berwarna.png" srcset="/img/Logo MAI Lengkap Berwarna.png" alt="" width="150px" />
                         </a>
                     </div>
                     <div class="navbar-collapse offcanvas-nav">
