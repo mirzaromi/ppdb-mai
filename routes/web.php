@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\UserControllers;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -21,3 +22,4 @@ Route::get('/admin', function(){
     return view("admin.index");
 });
 
+Route::get('/user',[UserControllers::class, 'index'] );
