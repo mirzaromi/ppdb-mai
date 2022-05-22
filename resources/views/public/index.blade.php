@@ -29,6 +29,7 @@
                                 aria-label="Close"></button>
                         </div>
                         <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link scroll" href="#home">Homeee1</a></li>
                             <li class="nav-item"><a class="nav-link scroll" href="#home">Homeee</a></li>
                             <li class="nav-item"><a class="nav-link scroll" href="#home">Branda</a></li>
                             <li class="nav-item"><a class="nav-link scroll" href="#services">Tentang</a></li>
