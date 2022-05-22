@@ -27,3 +27,7 @@ Route::get('/admin', function(){
 Route::get('/public', [LalaController::class,'index']);
 
 Route::get('/admin-lagi', [AdminController::class]);
+Route::get('/user', function(){
+    return view("user.index");
+});
+
