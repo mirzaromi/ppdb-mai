@@ -41,7 +41,7 @@
                         <ul class="navbar-nav flex-row align-items-center ms-auto" data-sm-skip="true">
                             
                             <li class="nav-item d-none d-md-block">
-                                <a href="/assets/public/contact.html" class="btn btn-sm btn-primary rounded-pill">Login</a>
+                                <a href="/assets/public/contact.html" class="btn btn-sm btn-primary rounded-pill">Masuk</a>
                             </li>
                             <li class="nav-item d-lg-none">
                                 <div class="navbar-hamburger"><button class="hamburger animate plain"
