@@ -38,17 +38,9 @@
                     <!-- /.navbar-collapse -->
                     <div class="navbar-other w-100 d-flex ms-auto">
                         <ul class="navbar-nav flex-row align-items-center ms-auto" data-sm-skip="true">
-                            <li class="nav-item dropdown language-select text-uppercase">
-                                <a class="nav-link dropdown-item dropdown-toggle" href="#" role="button"
-                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">En</a>
-                                <ul class="dropdown-menu">
-                                    <li class="nav-item"><a class="dropdown-item" href="#">En</a></li>
-                                    <li class="nav-item"><a class="dropdown-item" href="#">De</a></li>
-                                    <li class="nav-item"><a class="dropdown-item" href="#">Es</a></li>
-                                </ul>
-                            </li>
+                            
                             <li class="nav-item d-none d-md-block">
-                                <a href="/assets/public/contact.html" class="btn btn-sm btn-primary rounded-pill">Contact</a>
+                                <a href="/assets/public/contact.html" class="btn btn-sm btn-primary rounded-pill">Login</a>
                             </li>
                             <li class="nav-item d-lg-none">
                                 <div class="navbar-hamburger"><button class="hamburger animate plain"
