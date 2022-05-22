@@ -1,6 +1,8 @@
 <?php
 
-use App\Http\Controllers\UserControllers;
+use App\Http\Controllers\AdminController;
+use App\Http\Controllers\LalaController;
+use App\Models\Admin;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -22,4 +24,10 @@ Route::get('/admin', function(){
     return view("admin.index");
 });
 
-Route::get('/user',[UserControllers::class, 'index'] );
+Route::get('/public', [LalaController::class,'index']);
+
+Route::get('/admin-lagi', [AdminController::class]);
+Route::get('/user', function(){
+    return view("user.index");
+});
+
