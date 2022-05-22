@@ -169,9 +169,12 @@
         <!-- /section -->
         <section id="prosedur">
             <div class="p-3 mb-2 bg-green text-green d-flex justify-content-center">
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body d-flex justify-content-center">
-                        <p class="card-text text-center"><i>Prosedur Pendaftaran Peserta Didik Baru MA Istimewa</i></p>
+                <div class=" flex-column ">
+                    <h2 class="text-center">PROSEDUR PENDAFTARAN</h2>
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body d-flex justify-content-center">
+                            <p class="card-text text-center"><i>Prosedur Pendaftaran Peserta Didik Baru MA Istimewa</i></p>
+                        </div>
                     </div>
                 </div>
             </div>
