@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/assets/public/assets/css/plugins.css">
     <link rel="stylesheet" href="/assets/public/assets/css/style.css">
     <link rel="stylesheet" href="/assets/public/assets/css/colors/green.css">
+    <link rel="stylesheet" href="/assets/public/assets/css/user/style.css">
 </head>
 
 <body class="onepage" data-bs-spy="scroll" data-bs-target=".navbar">
@@ -18,7 +19,7 @@
                 <div class="container flex-lg-row flex-nowrap align-items-center">
                     <div class="navbar-brand w-100">
                         <a href="/assets/public/index.html">
-                            <img src="/img/Logo MAI Lengkap Berwarna.png" srcset="/img/Logo MAI Lengkap Berwarna.png" alt="" width="150px" />
+                            <a href="#home" class="nav-link scroll"><h2>PPDB-MAI</h2></a>
                         </a>
                     </div>
                     <div class="navbar-collapse offcanvas-nav">
@@ -29,11 +30,13 @@
                                 aria-label="Close"></button>
                         </div>
                         <ul class="navbar-nav">
-                            <li class="nav-item"><a class="nav-link scroll" href="#home">Homeee1</a></li>
-                            <li class="nav-item"><a class="nav-link scroll" href="#home">Homeee</a></li>
-                            <li class="nav-item"><a class="nav-link scroll" href="#home">Branda</a></li>
-                            <li class="nav-item"><a class="nav-link scroll" href="#services">Tentang</a></li>
-                            <li class="nav-item"><a class="nav-link scroll" href="#process">Kontak Kami</a></li>
+                            <li class="nav-item"><a class="nav-link scroll" href="#layanan">Layanan</a></li>
+                            <li class="nav-item"><a class="nav-link scroll" href="#jalurmasuk">Jalur Masuk</a></li>
+                            <li class="nav-item"><a class="nav-link scroll" href="#prosedur">Prosedur</a></li>
+                            <li class="nav-item"><a class="nav-link scroll" href="#timeline">Timeline</a></li>
+                            <li class="nav-item"><a class="nav-link scroll" href="#testimoni">Testimoni</a></li>
+                            <li class="nav-item"><a class="nav-link scroll" href="#profil">Profil</a></li>
+                            <li class="nav-item"><a class="nav-link scroll" href="#contact">Kontak Kami</a></li>
                         </ul>
                         <!-- /.navbar-nav -->
                     </div>
@@ -42,7 +45,7 @@
                         <ul class="navbar-nav flex-row align-items-center ms-auto" data-sm-skip="true">
                             
                             <li class="nav-item d-none d-md-block">
-                                <a href="/assets/public/contact.html" class="btn btn-sm btn-primary rounded-pill">Masuk</a>
+                                <a href="/assets/public/contact.html" class="btn btn-sm btn-lg btn-primary rounded-pill">Masuk</a>
                             </li>
                             <li class="nav-item d-lg-none">
                                 <div class="navbar-hamburger"><button class="hamburger animate plain"
@@ -64,9 +67,11 @@
                     <div class="row text-center">
                         <div class="col-lg-9 col-xxl-7 mx-auto" data-cues="zoomIn" data-group="welcome"
                             data-interval="-200">
-                            <h2 class="display-1 mb-4">Creative. Smart. Awesome.</h2>
-                            <p class="lead fs-24 lh-sm px-md-5 px-xl-15 px-xxl-10">We are an award winning web & mobile
-                                design agency that strongly believes in the power of creative ideas.</p>
+                            <p class="lead fs-24 lh-sm px-md-5 px-xl-15 px-xxl-10">pendaftaran peserta didik baru</p>
+                            <h2 class="display-1 mb-4">MA ISTIMEWA AMANATUL UMMAH</h2>
+                            <li class="nav-item d-none d-md-block">
+                                <a href="/assets/public/contact.html" class="btn  btn-primary btn-lg">Daftar</a>
+                            </li>
                         </div>
                         <!-- /column -->
                     </div>
@@ -162,6 +167,16 @@
             <!-- /.wrapper -->
         </section>
         <!-- /section -->
+        <section id="prosedur">
+            <div class="p-3 mb-2 bg-green text-green d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body d-flex justify-content-center">
+                        <p class="card-text text-center"><i>Prosedur Pendaftaran Peserta Didik Baru MA Istimewa</i></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        {{-- /section --}}
         <section id="process">
             <div class="wrapper bg-gray">
                 <div class="container py-14 py-md-17">
