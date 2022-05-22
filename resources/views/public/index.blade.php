@@ -29,13 +29,9 @@
                                 aria-label="Close"></button>
                         </div>
                         <ul class="navbar-nav">
-                            <li class="nav-item"><a class="nav-link scroll" href="#home">Homeee</a></li>
-                            <li class="nav-item"><a class="nav-link scroll" href="#services">Services</a></li>
-                            <li class="nav-item"><a class="nav-link scroll" href="#process">Process</a></li>
-                            <li class="nav-item"><a class="nav-link scroll" href="#about">About</a></li>
-                            <li class="nav-item"><a class="nav-link scroll" href="#testimonials">Testimonials</a>
-                            </li>
-                            <li class="nav-item"><a class="nav-link scroll" href="#contact">Contact</a></li>
+                            <li class="nav-item"><a class="nav-link scroll" href="#home">Branda</a></li>
+                            <li class="nav-item"><a class="nav-link scroll" href="#services">Tentang</a></li>
+                            <li class="nav-item"><a class="nav-link scroll" href="#process">Kontak Kami</a></li>
                         </ul>
                         <!-- /.navbar-nav -->
                     </div>
