@@ -1,12 +1,8 @@
 <?php
 
-<<<<<<< HEAD
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\LalaController;
 use App\Models\Admin;
-=======
-use App\Http\Controllers\UserControllers;
->>>>>>> 9c8dd5bfbd162677f49f9033102250b8bf55fe5c
 use Illuminate\Support\Facades\Route;
 
 /*
