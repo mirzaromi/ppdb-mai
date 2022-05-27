@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="/assets/public/assets/css/style.css">
     <link rel="stylesheet" href="/assets/public/assets/css/colors/green.css">
     <link rel="stylesheet" href="/assets/public/assets/css/user/style.css">
+    <link rel="stylesheet" href="/assets/public/assets/css/timeline.css">
+    <link rel="stylesheet" href="/assets/public/assets/css/custom.css">
+    <script src="https://kit.fontawesome.com/2ef17579f3.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="onepage" data-bs-spy="scroll" data-bs-target=".navbar">
@@ -31,7 +34,8 @@
                         </div>
                         <ul class="navbar-nav">
                             <li class="nav-item"><a class="nav-link scroll" href="#layanan">Layanan</a></li>
-                            <li class="nav-item"><a class="nav-link scroll" href="#jalurmasuk">Jalur Masuk</a></li>
+                            <li class="nav-item"><a class="nav-link scroll" href="#jalurmasuk">Jalur Masuk</a>
+                            </li>
                             <li class="nav-item"><a class="nav-link scroll" href="#prosedur">Prosedur</a></li>
                             <li class="nav-item"><a class="nav-link scroll" href="#timeline">Timeline</a></li>
                             <li class="nav-item"><a class="nav-link scroll" href="#testimoni">Testimoni</a></li>
@@ -125,14 +129,253 @@
                         </div>
                         <!--/column -->
                     </div>
-                    <!--/.row -->
-                    <div class="row gx-lg-8 gx-xl-12 gy-6 gy-md-0 text-center">
-                        <div class="col-md-6 col-lg-3">
-                            <img src="/assets/public/assets/img/icons/megaphone.svg"
-                                class="svg-inject icon-svg icon-svg-md text-blue mb-3" alt="" />
-                            <h4>Marketing</h4>
-                            <p class="mb-2">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi
-                                porta gravida at eget metus. Cras justo cum sociis natoque magnis.</p>
+                    <div class="row">
+                        <div class="col-md-6 text-center">
+                            <img width="400px" class="img-fluid" src="img/sks2.png" alt="">
+                            <div class="d-flex justify-content-center">
+                                <div class="modal-body d-inline-block">
+                                    <!-- Project Details Go Here -->
+                                    <h2 class="text-uppercase">Layanan SKS 2 Tahun</h2>
+                                    <p class="text-muted">Layanan Sistem Kredit Semester yang ditempuh dalam waktu 2
+                                        tahun</p>
+                                    <p>Layanan Sistem Kredit Semester (SKS) 2 (Dua) Tahun adalah layanan pendidikan yang
+                                        dapat diselesaikan selama 2 (Dua) tahun. Dengan menggunakan sistem paket SKS,
+                                        peserta didik dapat lulus dengan lebih cepat, tidak harus menempuh pendidikan
+                                        seperti Sekolah Menengah Tingkat Atas lainnya, yang baru dapat dinyatakan lulus
+                                        dengan minimal menempuh pendidikan selama 3 (tiga) tahun. Meskipun dengan waktu
+                                        yang lebih pendek, namun kami dapat menjamin kualitas output sekolah kami lebih
+                                        baik dari sekolah-sekolah lain di Indonesia.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 text-center">
+                            <img width="400px" class="img-fluid " src="img/sks3.png" alt="">
+                            <div class="d-flex justify-content-center">
+                                <div class="modal-body d-inline-block">
+                                    <!-- Project Details Go Here -->
+                                    <h2 class="text-uppercase">Layanan SKS 3 Tahun</h2>
+                                    <p class="text-muted">Layanan Sistem Kredit Semester yang ditempuh dalam waktu 3
+                                        tahun</p>
+                                    <p>Layanan Sistem Kredit Semester (SKS) 3 (Tiga) tahun adalah sistem yang kami
+                                        rancang khusus agar Peserta Didik dapat menguasai materi Ujian Nasional secara
+                                        lebih matang. Hal itu dikarenakan setelah Peserta Didik menyelesaikan paket SKS
+                                        yang telah diberikan selama 2 (Dua) tahun, ditahun ketiga mereka akan diberi
+                                        materi dauroh Ujian Nasional, UTBK (Ujian Tulis Berbasis Komputer), SBMPTN, dan
+                                        pembelajaran kitab. Keunggulan SKS 3 tahun ini adalah pada penguasaan materi,
+                                        kitab, dan IT. Hal tersebut dapat membuat Peserta Didik dapat lulus Ujian
+                                        Nasional dengan hasil yang memuaskan yang tentunya akan membuat Peserta Didik
+                                        memiliki peluang yang lebih besar untuk diterima di Perguruan Tinggi favorit
+                                        yang diinginkan.</p>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <!-- /.wrapper -->
+    </section>
+    <!-- /section -->
+    <section class="page-section" id="jalur">
+        <div class="container jarak-section">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1 class="text-uppercase fw-bold">Jalur Masuk</h1>
+                    <p class="text-muted">Jenis jalur masuk MA Istimewa Amanatul Ummah</p>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-6">
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fas fa-edit fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="">Jalur Tes Akademik</h4>
+                    <p class="text-muted">Merupakan jalur regular atau tes yang dilaksanakan serentak melalui
+                        mekanisme CBT(Computer Based Test). </p>
+                </div>
+                <div class="col-md-6">
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fas fa-trophy fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="">Jalur Prestasi</h4>
+                    <p class="text-muted">Merupakan jalur prestasi baik akademik maupun non-akademik yang dibebaskan
+                        dari mekasinme tes tulis. Jalur prestasi ini akan dilaksanakan dalam 2 tahap. Tahap 1 seleksi
+                        berkas dan tahap 2 wawancara. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /section -->
+    {{-- Timeline --}}
+
+    <div class="container py-5 d-flex justify-content-center">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="content">
+                    <p class="text-center fw-bold text-dark font-judul m-0">TIMELINE PENDAFTARAN</p>
+                    <p class="text-center fw-bold text-muted font-judul1 ">JALUR PRESTASI</p>
+                    <ul class="timeline-1 text-black">
+                        <li class="event" data-date="3 September 2021">
+                            <h4 class="mb-3">Pendaftaran</h4>
+                            <p>Pendaftaran gelombang I dapat dilakukan secara online dan offline. Untuk pendaftaran online dapat dilakukan pada website PPDB sedangkan untuk offline dapat mendatangi langsung ke posko PPDB</p>
+                        </li>
+                        <li class="event" data-date="2:30 - 4:00pm">
+                            <h4 class="mb-3 pt-3">Opening Ceremony</h4>
+                            <p>Get ready for an exciting event, this will kick off in amazing fashion with MOP &amp;
+                                Busta
+                                Rhymes as an opening show.</p>
+                        </li>
+                        <li class="event" data-date="5:00 - 8:00pm">
+                            <h4 class="mb-3 pt-3">Main Event</h4>
+                            <p>This is where it all goes down. You will compete head to head with your friends and
+                                rivals. Get
+                                ready!</p>
+                        </li>
+                        <li class="event" data-date="8:30 - 9:30pm">
+                            <h4 class="mb-3 pt-3">Closing Ceremony</h4>
+                            <p class="mb-0">See how is the victor and who are the losers. The big stage is
+                                where the winners
+                                bask in their
+                                own glory.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-12">
+                <div id="content">
+                    <p class="text-center fw-bold text-muted font-judul1 ">JALUR TES AKADEMIK</p>
+                    <ul class="timeline-1 text-black">
+                        <li class="event" data-date="12:30 - 1:00pm">
+                            <h4 class="mb-3">Registration</h4>
+                            <p>Get here on time, it's first come first serve. Be late, get turned away.</p>
+                        </li>
+                        <li class="event" data-date="2:30 - 4:00pm">
+                            <h4 class="mb-3 pt-3">Opening Ceremony</h4>
+                            <p>Get ready for an exciting event, this will kick off in amazing fashion with MOP &amp;
+                                Busta
+                                Rhymes as an opening show.</p>
+                        </li>
+                        <li class="event" data-date="5:00 - 8:00pm">
+                            <h4 class="mb-3 pt-3">Main Event</h4>
+                            <p>This is where it all goes down. You will compete head to head with your friends and
+                                rivals. Get
+                                ready!</p>
+                        </li>
+                        <li class="event" data-date="8:30 - 9:30pm">
+                            <h4 class="mb-3 pt-3">Closing Ceremony</h4>
+                            <p class="mb-0">See how is the victor and who are the losers. The big stage is
+                                where the winners
+                                bask in their
+                                own glory.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-12">
+                <div id="content">
+                    <p class="text-center fw-bold text-dark font-judul m-0">Pendaftaran</p>
+                    <p class="text-center fw-bold text-muted font-judul1 m-0">10 Januari 2022 – 23 Maret 2022</p>
+                    <ul class="timeline-1 text-black">
+                        <li class="event" data-date="12:30 - 1:00pm">
+                            <h4 class="mb-3">Registration</h4>
+                            <p>Get here on time, it's first come first serve. Be late, get turned away.</p>
+                        </li>
+                        <li class="event" data-date="2:30 - 4:00pm">
+                            <h4 class="mb-3 pt-3">Opening Ceremony</h4>
+                            <p>Get ready for an exciting event, this will kick off in amazing fashion with MOP &amp;
+                                Busta
+                                Rhymes as an opening show.</p>
+                        </li>
+                        <li class="event" data-date="5:00 - 8:00pm">
+                            <h4 class="mb-3 pt-3">Main Event</h4>
+                            <p>This is where it all goes down. You will compete head to head with your friends and
+                                rivals. Get
+                                ready!</p>
+                        </li>
+                        <li class="event" data-date="8:30 - 9:30pm">
+                            <h4 class="mb-3 pt-3">Closing Ceremony</h4>
+                            <p class="mb-0">See how is the victor and who are the losers. The big stage is
+                                where the winners
+                                bask in their
+                                own glory.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{-- end Timeline --}}
+    <!-- /section -->
+    <section id="testimonials">
+        <div class="wrapper bg-gray">
+            <div class="container py-14 py-md-17">
+                <div class="row gx-lg-8 gx-xl-12 gy-6 mb-15 align-items-center">
+                    <div class="col-lg-7 order-lg-2">
+                        <figure><img class="w-auto" src="/assets/public/assets/img/concept/concept4.png"
+                                srcset="/assets/public/assets/img/concept/concept4@2x.png 2x" alt="" /></figure>
+                    </div>
+                    <!--/column -->
+                    <div class="col-lg-5 mt-lg-12">
+                        <div class="basic-slider owl-carousel gap-small" data-margin="30">
+                            <div class="item">
+                                <blockquote class="icon icon-top fs-lg text-center">
+                                    <p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+                                        Vestibulum ligula porta felis euismod semper. Cras justo odio consectetur.”
+                                    </p>
+                                    <div class="blockquote-details justify-content-center text-center">
+                                        <div class="info ps-0">
+                                            <h5 class="mb-1">Coriss Ambady</h5>
+                                            <p class="mb-0">Financial Analyst</p>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                            </div>
+                            <!-- /.item -->
+                            <div class="item">
+                                <blockquote class="icon icon-top fs-lg text-center">
+                                    <p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+                                        Vestibulum ligula porta felis euismod semper. Cras justo odio consectetur.”
+                                    </p>
+                                    <div class="blockquote-details justify-content-center text-center">
+                                        <div class="info ps-0">
+                                            <h5 class="mb-1">Cory Zamora</h5>
+                                            <p class="mb-0">Marketing Specialist</p>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                            </div>
+                            <!-- /.item -->
+                            <div class="item">
+                                <blockquote class="icon icon-top fs-lg text-center">
+                                    <p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+                                        Vestibulum ligula porta felis euismod semper. Cras justo odio consectetur.”
+                                    </p>
+                                    <div class="blockquote-details justify-content-center text-center">
+                                        <div class="info ps-0">
+                                            <h5 class="mb-1">Nikolas Brooten</h5>
+                                            <p class="mb-0">Sales Manager</p>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                            </div>
+                            <!-- /.item -->
+                        </div>
+                        <!-- /.owl-carousel -->
+                    </div>
+                    <!--/column -->
+                </div>
+                <!--/.row -->
+                <div class="px-lg-5">
+                    <div class="row gx-0 gx-md-8 gx-xl-12 gy-8 align-items-center">
+                        <div class="col-4 col-md-2">
+                            <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img
+                                    src="/assets/public/assets/img/brands/c1.png" alt="" /></figure>
                         </div>
                         <!--/column -->
                         <div class="col-md-6 col-lg-3">
