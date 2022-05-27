@@ -71,7 +71,7 @@
                     <div class="row text-center">
                         <div class="col-lg-9 col-xxl-7 mx-auto" data-cues="zoomIn" data-group="welcome"
                             data-interval="-200">
-                            <p class="lead fs-24 lh-sm px-md-5 px-xl-15 px-xxl-10">pendaftaran peserta didik baru</p>
+                            <p class="lead fs-24 lh-sm px-md-5 px-xl-15 px-xxl-10 ">pendaftaran peserta didik baru</p>
                             <h2 class="display-1 mb-4">MA ISTIMEWA AMANATUL UMMAH</h2>
                             <li class="nav-item d-none d-md-block">
                                 <a href="/assets/public/contact.html" class="btn  btn-primary btn-lg">Daftar</a>
@@ -94,30 +94,13 @@
             <!-- /.wrapper -->
         </section>
         <!-- /section -->
-        <section id="services">
-            <div class="wrapper bg-light">
-                <div class="container py-14 py-md-17">
-                    <div class="row gx-lg-8 gx-xl-12 gy-6 mb-10 align-items-center">
-                        <div class="col-lg-6 order-lg-2">
-                            <ul class="progress-list">
-                                <li>
-                                    <p>Marketing</p>
-                                    <div class="progressbar line blue" data-value="100"></div>
-                                </li>
-                                <li>
-                                    <p>Strategy</p>
-                                    <div class="progressbar line green" data-value="80"></div>
-                                </li>
-                                <li>
-                                    <p>Development</p>
-                                    <div class="progressbar line yellow" data-value="85"></div>
-                                </li>
-                                <li>
-                                    <p>Data Analysis</p>
-                                    <div class="progressbar line orange" data-value="90"></div>
-                                </li>
-                            </ul>
-                            <!-- /.progress-list -->
+        <section class="" id="services">
+            <div class="wrapper bg-light jarak-section">
+                <div class="container">
+                    <div class="row  mb-1 pb-1">
+                        <div class="col-lg-12 text-center">
+                            <h1 class="text-uppercase fw-bold font-judul">Layanan</h1>
+                            <p class="text-muted mb-1 fst-italic">Layanan di MA Istimewa Amanatul Ummah</p>
                         </div>
                         <!--/column -->
                         <div class="col-lg-6">
@@ -182,8 +165,8 @@
         <div class="container jarak-section">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h1 class="text-uppercase fw-bold">Jalur Masuk</h1>
-                    <p class="text-muted">Jenis jalur masuk MA Istimewa Amanatul Ummah</p>
+                    <h1 class="text-uppercase fw-bold font-judul">Jalur Masuk</h1>
+                    <p class="text-muted fst-italic">Jenis jalur masuk MA Istimewa Amanatul Ummah</p>
                 </div>
             </div>
             <div class="row text-center">
@@ -219,28 +202,30 @@
                     <p class="text-center fw-bold text-dark font-judul m-0">TIMELINE PENDAFTARAN</p>
                     <p class="text-center fw-bold text-muted font-judul1 ">JALUR PRESTASI</p>
                     <ul class="timeline-1 text-black">
-                        <li class="event" data-date="3 September 2021">
-                            <h4 class="mb-3">Pendaftaran</h4>
-                            <p>Pendaftaran gelombang I dapat dilakukan secara online dan offline. Untuk pendaftaran online dapat dilakukan pada website PPDB sedangkan untuk offline dapat mendatangi langsung ke posko PPDB</p>
+                        <li class="event" data-date="Gelombang 1">
+                            <h4 class="mb-0">Pendaftaran</h4>
+                            <h4 class="mb-5">3 September 2021 – 15 Februari 2022</h4>
+                            <p>Pendaftaran gelombang I dapat dilakukan secara online dan offline. Untuk pendaftaran
+                                online dapat dilakukan pada website PPDB sedangkan untuk offline dapat mendatangi
+                                langsung ke posko PPDB</p>
                         </li>
-                        <li class="event" data-date="2:30 - 4:00pm">
-                            <h4 class="mb-3 pt-3">Opening Ceremony</h4>
-                            <p>Get ready for an exciting event, this will kick off in amazing fashion with MOP &amp;
-                                Busta
-                                Rhymes as an opening show.</p>
+                        <li class="event" data-date="17 Februari 2022">
+                            <h4 class="mb-3 pt-3">Seleksi berkas</h4>
+                            <p>Menyertakan rapor semester 1-5 serta sertifikat jika ada. Untuk pendaftar online dapat
+                                mengupload berkas yang diperlukan di akun masing-masing</p>
                         </li>
-                        <li class="event" data-date="5:00 - 8:00pm">
-                            <h4 class="mb-3 pt-3">Main Event</h4>
-                            <p>This is where it all goes down. You will compete head to head with your friends and
-                                rivals. Get
-                                ready!</p>
+                        <li class="event" data-date="20 Februari 2022">
+                            <h4 class="mb-3 pt-3">Wawancara</h4>
+                            <p>Siswa yang dinyatakan lolos seleksi berkas akan diundang untuk melakukan wawancara via
+                                video conference</p>
                         </li>
-                        <li class="event" data-date="8:30 - 9:30pm">
-                            <h4 class="mb-3 pt-3">Closing Ceremony</h4>
-                            <p class="mb-0">See how is the victor and who are the losers. The big stage is
-                                where the winners
-                                bask in their
-                                own glory.</p>
+                        <li class="event" data-date="23 Februari 2022">
+                            <h4 class="mb-3 pt-3">Pengumuman Lolos Jalur Prestasi</h4>
+                            <p class="mb-0">Siswa yang tidak lolos tahap prestasi dapat langsung mengikuti tes
+                                akademik</p>
+                        </li>
+                        <li class="event">
+                            <h4 class="mb-3 pt-3">Jalur Prestasi ditutup!</h4>
                         </li>
                     </ul>
                 </div>
@@ -248,30 +233,23 @@
 
             <div class="col-md-12">
                 <div id="content">
-                    <p class="text-center fw-bold text-muted font-judul1 ">JALUR TES AKADEMIK</p>
+                    <p class="text-center fw-bold text-dark font-judul1 ">JALUR TES AKADEMIK</p>
                     <ul class="timeline-1 text-black">
-                        <li class="event" data-date="12:30 - 1:00pm">
-                            <h4 class="mb-3">Registration</h4>
-                            <p>Get here on time, it's first come first serve. Be late, get turned away.</p>
+                        <li class="event" data-date="Gelombang 1">
+                            <h4 class="mb-0">Pendaftaran</h4>
+                            <h4 class="mb-3">3 September 2021 – 23 Desember 2021</h4>
+                            <p>
+                                Pendaftaran gelombang I dapat dilakukan secara online dan offline. Untuk pendaftaran
+                                online dapat dilakukan pada website PPDB sedangkan untuk offline dapat mendatangi
+                                langsung ke posko PPDB</p>
                         </li>
-                        <li class="event" data-date="2:30 - 4:00pm">
-                            <h4 class="mb-3 pt-3">Opening Ceremony</h4>
-                            <p>Get ready for an exciting event, this will kick off in amazing fashion with MOP &amp;
-                                Busta
-                                Rhymes as an opening show.</p>
+                        <li class="event" data-date="25 Desember 2021">
+                            <h4 class="mb-3 pt-3">Tes Akademik</h4>
+                            <p> Tes Akademik dilaksanakan secara online serentak melalui mekanisme (CBT)</p>
                         </li>
-                        <li class="event" data-date="5:00 - 8:00pm">
-                            <h4 class="mb-3 pt-3">Main Event</h4>
-                            <p>This is where it all goes down. You will compete head to head with your friends and
-                                rivals. Get
-                                ready!</p>
-                        </li>
-                        <li class="event" data-date="8:30 - 9:30pm">
-                            <h4 class="mb-3 pt-3">Closing Ceremony</h4>
-                            <p class="mb-0">See how is the victor and who are the losers. The big stage is
-                                where the winners
-                                bask in their
-                                own glory.</p>
+                        <li class="event" data-date="29 Desember 2021">
+                            <h4 class="mb-3 pt-3">Pengumuman Lolos Jalur Tes</h4>
+                            <p>Pengumuman lolos bisa dilihat di akun masing-masing peserta</p>
                         </li>
                     </ul>
                 </div>
@@ -280,30 +258,25 @@
             <div class="col-md-12">
                 <div id="content">
                     <p class="text-center fw-bold text-dark font-judul m-0">Pendaftaran</p>
-                    <p class="text-center fw-bold text-muted font-judul1 m-0">10 Januari 2022 – 23 Maret 2022</p>
+                    <p class="text-center fw-bold text-muted font-judul1 m-0"></p>
                     <ul class="timeline-1 text-black">
-                        <li class="event" data-date="12:30 - 1:00pm">
-                            <h4 class="mb-3">Registration</h4>
-                            <p>Get here on time, it's first come first serve. Be late, get turned away.</p>
+                        <li class="event" data-date="Gelombang II">
+                            <h4 class="mb-0">Pendaftaran</h4>
+                                <h4 class="mb-3">10 Januari 2022 – 23 Maret 2022</h4>
+                            <p>                                
+                                Pendaftaran gelombang II dapat dilakukan secara online dan offline. Untuk pendaftaran online dapat dilakukan pada website PPDB sedangkan untuk offline dapat mendatangi langsung ke posko PPDB</p>
                         </li>
-                        <li class="event" data-date="2:30 - 4:00pm">
-                            <h4 class="mb-3 pt-3">Opening Ceremony</h4>
-                            <p>Get ready for an exciting event, this will kick off in amazing fashion with MOP &amp;
-                                Busta
-                                Rhymes as an opening show.</p>
+                        <li class="event" data-date="26 Maret 2022">
+                            <h4 class="mb-3 pt-3">Tes Akademik</h4>
+                            <p>Tes Akademik dilaksanakan secara online serentak melalui mekanisme (CBT)</p>
                         </li>
-                        <li class="event" data-date="5:00 - 8:00pm">
-                            <h4 class="mb-3 pt-3">Main Event</h4>
-                            <p>This is where it all goes down. You will compete head to head with your friends and
-                                rivals. Get
-                                ready!</p>
+                        <li class="event" data-date="03 April 2022">
+                            <h4 class="mb-3 pt-3">Pengumuman Lolos Jalur Tes  
+                                </h4>
+                            <p>Pengumuman lolos bisa dilihat di akun masing-masing peserta</p>
                         </li>
-                        <li class="event" data-date="8:30 - 9:30pm">
-                            <h4 class="mb-3 pt-3">Closing Ceremony</h4>
-                            <p class="mb-0">See how is the victor and who are the losers. The big stage is
-                                where the winners
-                                bask in their
-                                own glory.</p>
+                        <li class="event" data-date="">
+                            <h4 class="mb-3 pt-3">Save the date!</h4>
                         </li>
                     </ul>
                 </div>
