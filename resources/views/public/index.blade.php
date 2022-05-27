@@ -306,6 +306,38 @@
             <!-- /.wrapper -->
         </section>
         <!-- /section -->
+        {{-- testimoni --}}
+        <section id="testimoni">
+            <div class="col-lg-8">
+                <div class="card" style="width: auto;">
+                    <img src="/img/w2.jfif" class="card-img-top" alt="..." width="30px">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+                <!-- /.item -->
+                <div class="item">
+                    <div class="card" style="width: auto;">
+                        <img src="/img/w2.jfif" class="card-img-top" alt="..." width="30px">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.item -->
+                <div class="item">
+                    <div class="card" style="width: auto;">
+                        <img src="/img/w2.jfif" class="card-img-top" alt="..." width="30px">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.item -->
+            </div>
+            <!--/column -->
+        </section>
+        {{-- end testimoni --}}
         <section id="about">
             <div class="wrapper bg-light">
                 <div class="container py-14 py-md-17">
