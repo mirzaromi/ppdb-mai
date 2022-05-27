@@ -225,7 +225,7 @@
 
             <div class="col-md-12">
                 <div id="content">
-                    <p class="text-center fw-bold text-muted font-judul1 ">JALUR TES AKADEMIK</p>
+                    <p class="text-center fw-bold text-dark font-judul1 ">JALUR TES AKADEMIK</p>
                     <ul class="timeline-1 text-black">
                         <li class="event" data-date="Gelombang 1">
                             <h4 class="mb-0">Pendaftaran</h4>
@@ -250,30 +250,25 @@
             <div class="col-md-12">
                 <div id="content">
                     <p class="text-center fw-bold text-dark font-judul m-0">Pendaftaran</p>
-                    <p class="text-center fw-bold text-muted font-judul1 m-0">10 Januari 2022 – 23 Maret 2022</p>
+                    <p class="text-center fw-bold text-muted font-judul1 m-0"></p>
                     <ul class="timeline-1 text-black">
-                        <li class="event" data-date="12:30 - 1:00pm">
-                            <h4 class="mb-3">Registration</h4>
-                            <p>Get here on time, it's first come first serve. Be late, get turned away.</p>
+                        <li class="event" data-date="Gelombang II">
+                            <h4 class="mb-0">Pendaftaran</h4>
+                                <h4 class="mb-3">10 Januari 2022 – 23 Maret 2022</h4>
+                            <p>                                
+                                Pendaftaran gelombang II dapat dilakukan secara online dan offline. Untuk pendaftaran online dapat dilakukan pada website PPDB sedangkan untuk offline dapat mendatangi langsung ke posko PPDB</p>
                         </li>
-                        <li class="event" data-date="2:30 - 4:00pm">
-                            <h4 class="mb-3 pt-3">Opening Ceremony</h4>
-                            <p>Get ready for an exciting event, this will kick off in amazing fashion with MOP &amp;
-                                Busta
-                                Rhymes as an opening show.</p>
+                        <li class="event" data-date="26 Maret 2022">
+                            <h4 class="mb-3 pt-3">Tes Akademik</h4>
+                            <p>Tes Akademik dilaksanakan secara online serentak melalui mekanisme (CBT)</p>
                         </li>
-                        <li class="event" data-date="5:00 - 8:00pm">
-                            <h4 class="mb-3 pt-3">Main Event</h4>
-                            <p>This is where it all goes down. You will compete head to head with your friends and
-                                rivals. Get
-                                ready!</p>
+                        <li class="event" data-date="03 April 2022">
+                            <h4 class="mb-3 pt-3">Pengumuman Lolos Jalur Tes  
+                                </h4>
+                            <p>Pengumuman lolos bisa dilihat di akun masing-masing peserta</p>
                         </li>
-                        <li class="event" data-date="8:30 - 9:30pm">
-                            <h4 class="mb-3 pt-3">Closing Ceremony</h4>
-                            <p class="mb-0">See how is the victor and who are the losers. The big stage is
-                                where the winners
-                                bask in their
-                                own glory.</p>
+                        <li class="event" data-date="">
+                            <h4 class="mb-3 pt-3">Save the date!</h4>
                         </li>
                     </ul>
                 </div>
