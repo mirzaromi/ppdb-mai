@@ -33,11 +33,13 @@
                                 aria-label="Close"></button>
                         </div>
                         <ul class="navbar-nav">
-                            <li class="nav-item"><a class="nav-link scroll" href="#home">Homeee1</a></li>
-                            <li class="nav-item"><a class="nav-link scroll" href="#home">Homeee</a></li>
-                            <li class="nav-item"><a class="nav-link scroll" href="#home">Branda</a></li>
-                            <li class="nav-item"><a class="nav-link scroll" href="#services">Tentang</a></li>
-                            <li class="nav-item"><a class="nav-link scroll" href="#process">Kontak Kami</a></li>
+                            <li class="nav-item"><a class="nav-link scroll" href="#layanan">Layanan</a></li>
+                            <li class="nav-item"><a class="nav-link scroll" href="#jalurmasuk">Jalur Masuk</a></li>
+                            <li class="nav-item"><a class="nav-link scroll" href="#prosedur">Prosedur</a></li>
+                            <li class="nav-item"><a class="nav-link scroll" href="#timeline">Timeline</a></li>
+                            <li class="nav-item"><a class="nav-link scroll" href="#testimoni">Testimoni</a></li>
+                            <li class="nav-item"><a class="nav-link scroll" href="#profil">Profil</a></li>
+                            <li class="nav-item"><a class="nav-link scroll" href="#contact">Kontak Kami</a></li>
                         </ul>
                         <!-- /.navbar-nav -->
                     </div>
@@ -69,9 +71,11 @@
                     <div class="row text-center">
                         <div class="col-lg-9 col-xxl-7 mx-auto" data-cues="zoomIn" data-group="welcome"
                             data-interval="-200">
-                            <h2 class="display-1 mb-4">Creative. Smart. Awesome.</h2>
-                            <p class="lead fs-24 lh-sm px-md-5 px-xl-15 px-xxl-10">We are an award winning web & mobile
-                                design agency that strongly believes in the power of creative ideas.</p>
+                            <p class="lead fs-24 lh-sm px-md-5 px-xl-15 px-xxl-10">pendaftaran peserta didik baru</p>
+                            <h2 class="display-1 mb-4">MA ISTIMEWA AMANATUL UMMAH</h2>
+                            <li class="nav-item d-none d-md-block">
+                                <a href="/assets/public/contact.html" class="btn  btn-primary btn-lg">Daftar</a>
+                            </li>
                         </div>
                         <!-- /column -->
                     </div>
