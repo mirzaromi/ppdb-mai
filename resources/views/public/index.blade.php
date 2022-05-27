@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="/assets/public/assets/css/style.css">
     <link rel="stylesheet" href="/assets/public/assets/css/colors/green.css">
     <link rel="stylesheet" href="/assets/public/assets/css/timeline.css">
-    <link rel="stylesheet" href="/css/style.css">
     <script src="https://kit.fontawesome.com/2ef17579f3.js" crossorigin="anonymous"></script>
 </head>
 
@@ -34,7 +33,8 @@
                         </div>
                         <ul class="navbar-nav">
                             <li class="nav-item"><a class="nav-link scroll" href="#layanan">Layanan</a></li>
-                            <li class="nav-item"><a class="nav-link scroll" href="#jalurmasuk">Jalur Masuk</a></li>
+                            <li class="nav-item"><a class="nav-link scroll" href="#jalurmasuk">Jalur Masuk</a>
+                            </li>
                             <li class="nav-item"><a class="nav-link scroll" href="#prosedur">Prosedur</a></li>
                             <li class="nav-item"><a class="nav-link scroll" href="#timeline">Timeline</a></li>
                             <li class="nav-item"><a class="nav-link scroll" href="#testimoni">Testimoni</a></li>
@@ -186,36 +186,41 @@
     <!-- /section -->
     {{-- Timeline --}}
 
-    <div class="container py-5">
+    <div class="container py-5 d-flex justify-content-center">
         <div class="row">
-          <div class="col-md-12">
-            <div id="content">
-              <ul class="timeline-1 text-black">
-                <li class="event" data-date="12:30 - 1:00pm">
-                  <h4 class="mb-3">Registration</h4>
-                  <p>Get here on time, it's first come first serve. Be late, get turned away.</p>
-                </li>
-                <li class="event" data-date="2:30 - 4:00pm">
-                  <h4 class="mb-3 pt-3">Opening Ceremony</h4>
-                  <p>Get ready for an exciting event, this will kick off in amazing fashion with MOP &amp; Busta
-                    Rhymes as an opening show.</p>
-                </li>
-                <li class="event" data-date="5:00 - 8:00pm">
-                  <h4 class="mb-3 pt-3">Main Event</h4>
-                  <p>This is where it all goes down. You will compete head to head with your friends and rivals. Get
-                    ready!</p>
-                </li>
-                <li class="event" data-date="8:30 - 9:30pm">
-                  <h4 class="mb-3 pt-3">Closing Ceremony</h4>
-                  <p class="mb-0">See how is the victor and who are the losers. The big stage is where the winners
-                    bask in their
-                    own glory.</p>
-                </li>
-              </ul>
+            <div class="col-md-12">
+                <div id="content">
+                    <p class="text-center fw-bold text-dark font-judul">TIMELINE PENDAFTARAN</p>
+                    <p class="text-center fw-bold text-muted ">JALUR PRESTASI</p>
+                    <ul class="timeline-1 text-black">
+                        <li class="event" data-date="12:30 - 1:00pm">
+                            <h4 class="mb-3">Registration</h4>
+                            <p>Get here on time, it's first come first serve. Be late, get turned away.</p>
+                        </li>
+                        <li class="event" data-date="2:30 - 4:00pm">
+                            <h4 class="mb-3 pt-3">Opening Ceremony</h4>
+                            <p>Get ready for an exciting event, this will kick off in amazing fashion with MOP &amp;
+                                Busta
+                                Rhymes as an opening show.</p>
+                        </li>
+                        <li class="event" data-date="5:00 - 8:00pm">
+                            <h4 class="mb-3 pt-3">Main Event</h4>
+                            <p>This is where it all goes down. You will compete head to head with your friends and
+                                rivals. Get
+                                ready!</p>
+                        </li>
+                        <li class="event" data-date="8:30 - 9:30pm">
+                            <h4 class="mb-3 pt-3">Closing Ceremony</h4>
+                            <p class="mb-0">See how is the victor and who are the losers. The big stage is
+                                where the winners
+                                bask in their
+                                own glory.</p>
+                        </li>
+                    </ul>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
+    </div>
     {{-- end Timeline --}}
     <!-- /section -->
     <section id="testimonials">
