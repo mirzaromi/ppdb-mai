@@ -551,17 +551,11 @@
         <!-- /section -->
         {{-- testimoni --}}
         <section id="testimoni">
-            <div class="col-lg-8">
-                <div class="card" style="width: auto;">
-                    <img src="/img/w2.jfif" class="card-img-top" alt="..." width="30px">
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                </div>
-                <!-- /.item -->
+            <h2 class="m-5" style="text-align: center;font-size: 4em">TESTIMONI WALISANTRI</h2>
+            <div class="d-flex justify-content-center">
                 <div class="item">
-                    <div class="card" style="width: auto;">
-                        <img src="/img/w2.jfif" class="card-img-top" alt="..." width="30px">
+                    <div class="card m-5" style="width: auto;">
+                        <img src="/img/w2.jfif" class="card-img-top" alt="..." width="30%">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
@@ -569,8 +563,17 @@
                 </div>
                 <!-- /.item -->
                 <div class="item">
-                    <div class="card" style="width: auto;">
-                        <img src="/img/w2.jfif" class="card-img-top" alt="..." width="30px">
+                    <div class="card m-5" style="width: auto;">
+                        <img src="/img/w2.jfif" class="card-img-top" alt="..." width="30%">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.item -->
+                <div class="item">
+                    <div class="card m-5" style="width: auto;">
+                        <img src="/img/w2.jfif" class="card-img-top" alt="..." width="30%">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
