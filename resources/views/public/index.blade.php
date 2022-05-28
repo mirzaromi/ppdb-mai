@@ -391,7 +391,40 @@
                         <div class="card-body d-flex justify-content-center">
                             <p class="card-text text-center d-block"><i>Prosedur Pendaftaran Peserta Didik Baru MA Istimewa</i></p>
                         </div>
-                        <a href="" class="btm btn-primary m-3 p-3 text-center btn-lg">SELENGKAPNYA</a>
+                        <button type="button" class="btn btn-primary m-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                            SELANJUTNYA
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">Prosedur</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <h6>Prosedur Pendaftaran MA Istimewa Amanatul Ummah ONLINE</h6>
+                                    <ul style="list-style-type: circle; color:black">
+                                        <li>Masuk ke halaman utama PPDB MAI AU</li>
+                                        <li>Pilih Daftar, Isi formulir pendaftaran secara lengkap</li>
+                                        <li>Anda akan mendapatkan Nomor Peserta dan Password jika berhasil mendaftar</li>
+                                        <li>Simpan baik-baik Nomor Peserta dan Password yang telah diberikan</li>
+                                        <li>Login akun menggunakan Nomor Peserta dan Password</li>
+                                        <li>Setelah login, Lengkapilah biodata</li>
+                                        <li>Upload foto dan rapor semester 1 hingga 5 dan sertifikat atau piagam bagi yang mendaftar melalui <strong>Jalur Prestasi</strong></li>
+                                        <li>Membayar biaya pendaftaran sebesar Rp. 350.000,00 melalui transfer ke BSM (Bank Syariah Mandiri) - 7220719906 a.n SITI MUSIRROH (MA ISTIMEWA AU PACET)&nbsp;</li>
+                                        <li>Upload foto bukti pembayaran dan tunggu verifikasi data</li>
+                                        <li>Cek secara berkala status pendaftaran, Anda resmi terdaftar ketika status verifikasi sudah diterima.</li>
+                                        <li>Jika sudah terverifikasi silakan cetak kartu peserta</li>
+                                        <li>Jika dalam waktu 3 hari belum juga terverifikasi silakan hubungi <a href="https://wa.me/6285157748815" target="_blank" style="color: #528270;">(Admin : 0851-5774-8815)</a></li>
+                                        <li>Informasi lebih lanjut, kunjungi website&nbsp;<a title="PPDB 2019" href="../" target="_blank" rel="noopener">PPDB</a> atau media sosial&nbsp;<a title="Official Site" href="https://www.instagram.com/mai.amanatulummah.pacet/" target="_blank" rel="noopener">MA Amanatul Ummah</a></li>
+                                    </ul>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -523,39 +556,87 @@
         </section>
         <!-- /section -->
         {{-- testimoni --}}
-        <section id="testimoni">
-            <h2 class="m-5" style="text-align: center;font-size: 4em">TESTIMONI WALISANTRI</h2>
-            <div class="d-flex justify-content-center">
-                <div class="item">
-                    <div class="card m-5" style="width: auto;">
-                        <img src="/img/w2.jfif" class="card-img-top" alt="..." width="30%">
+        <section class="wrapper bg-light">
+            <div class="container py-14 py-md-16">
+                <h2 class="display-4 mb-3 text-center">TESTIMONI WALI SANTRI</h2>
+                <div class="position-relative">
+                <div class="shape rounded-circle bg-soft-yellow rellax w-16 h-16" data-rellax-speed="1" style="bottom: 0.5rem; right: -1.7rem;"></div>
+                <div class="shape bg-dot primary rellax w-16 h-16" data-rellax-speed="1" style="top: -1rem; left: -1.7rem;"></div>
+                <div class="carousel owl-carousel gap-small" data-margin="0" data-dots="true" data-autoplay="false" data-autoplay-timeout="5000" data-responsive='{"0":{"items": "1"}, "768":{"items": "2"}, "992":{"items": "2"}, "1200":{"items": "3"}}'>
+                    <div class="item">
+                    <div class="item-inner">
+                        <div class="card">
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <blockquote class="icon mb-0">
+                            <p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Cras justo odio dapibus facilisis sociis natoque penatibus.”</p>
+                            <div class="blockquote-details">
+                                <img class="rounded-circle w-12" src="/img/pak dika.jpg" srcset="./assets/img/avatars/te1@2x.jpg 2x" alt="" />
+                                <div class="info">
+                                <h5 class="mb-1">Coriss Ambady</h5>
+                                <p class="mb-0">Financial Analyst</p>
+                                </div>
+                            </div>
+                            </blockquote>
                         </div>
+                        <!-- /.card-body -->
+                        </div>
+                        <!-- /.card -->
                     </div>
-                </div>
-                <!-- /.item -->
-                <div class="item">
-                    <div class="card m-5" style="width: auto;">
-                        <img src="/img/w2.jfif" class="card-img-top" alt="..." width="30%">
+                    <!-- /.item-inner -->
+                    </div>
+                    <!-- /.item -->
+                    <div class="item">
+                    <div class="item-inner">
+                        <div class="card">
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <blockquote class="icon mb-0">
+                            <p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Cras justo odio dapibus facilisis sociis natoque penatibus.”</p>
+                            <div class="blockquote-details">
+                                <img class="rounded-circle w-12" src="/img/pak dika.jpg" srcset="./assets/img/avatars/te2@2x.jpg 2x" alt="" />
+                                <div class="info">
+                                <h5 class="mb-1">Cory Zamora</h5>
+                                <p class="mb-0">Marketing Specialist</p>
+                                </div>
+                            </div>
+                            </blockquote>
                         </div>
+                        <!-- /.card-body -->
+                        </div>
+                        <!-- /.card -->
                     </div>
-                </div>
-                <!-- /.item -->
-                <div class="item">
-                    <div class="card m-5" style="width: auto;">
-                        <img src="/img/w2.jfif" class="card-img-top" alt="..." width="30%">
+                    <!-- /.item-inner -->
+                    </div>
+                    <!-- /.item -->
+                    <div class="item">
+                    <div class="item-inner">
+                        <div class="card">
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <blockquote class="icon mb-0">
+                            <p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Cras justo odio dapibus facilisis sociis natoque penatibus.”</p>
+                            <div class="blockquote-details">
+                                <img class="rounded-circle w-12" src="/img/pak dika.jpg"/>
+                                <div class="info">
+                                <h5 class="mb-1">Nikolas Brooten</h5>
+                                <p class="mb-0">Sales Manager</p>
+                                </div>
+                            </div>
+                            </blockquote>
                         </div>
+                        <!-- /.card-body -->
+                        </div>
+                        <!-- /.card -->
                     </div>
+                    <!-- /.item-inner -->
+                    </div>
+                    <!-- /.item -->
                 </div>
-                <!-- /.item -->
+                <!-- /.owl-carousel -->
+                </div>
+                <!-- /.position-relative -->
             </div>
-            <!--/column -->
+            <!-- /.container -->
         </section>
+        <!-- /section -->
         {{-- end testimoni --}}
         <section id="about">
             <div class="wrapper bg-light">
@@ -669,7 +750,7 @@
                                 <div class="item">
                                     <blockquote class="icon icon-top fs-lg text-center">
                                         <p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-                                            Vestibulum ligula porta felis euismod semper. Cras justo odio consectetur.”
+                                            {{-- Vestibulum ligula porta felis euismod semper. Cras justo odio consectetur.” --}}
                                         </p>
                                         <div class="blockquote-details justify-content-center text-center">
                                             <div class="info ps-0">
@@ -811,95 +892,49 @@
         <!-- /section -->
     </div>
     <!-- /.content-wrapper -->
-    <footer class="bg-dark text-inverse">
-        <div class="container py-13 py-md-15">
-            <div class="row gy-6 gy-lg-0">
-                <div class="col-md-4 col-lg-3">
+   <footer class="bg-soft-primary">
+        <div class="container pb-12 text-center pt-5">
+            <div class="row mt-n10 mt-lg-0">
+            <div class="col-xl-10 mx-auto">
+                <div class="row mb-3">
+                <div class="col-md-4">
                     <div class="widget">
-                        <img class="mb-4" src="/assets/public/assets/img/logo-light.png"
-                            srcset="/assets/public/assets/img/logo-light@2x.png 2x" alt="" />
-                        <p class="mb-4">© 2021 Sandbox. <br class="d-none d-lg-block" />All rights reserved.
-                        </p>
-                        <nav class="nav social social-white">
-                            <a href="#"><i class="uil uil-twitter"></i></a>
-                            <a href="#"><i class="uil uil-facebook-f"></i></a>
-                            <a href="#"><i class="uil uil-dribbble"></i></a>
-                            <a href="#"><i class="uil uil-instagram"></i></a>
-                            <a href="#"><i class="uil uil-youtube"></i></a>
-                        </nav>
-                        <!-- /.social -->
+                    <h4 class="widget-title">Alamat</h4>
+                    <address>Jalan KH. Abdul Chalim No.01, Kembang,<br> Kembangbelor, Kec. Pacet, Mojokerto</address>
                     </div>
                     <!-- /.widget -->
                 </div>
-                <!-- /column -->
-                <div class="col-md-4 col-lg-3">
+                <!--/column -->
+                <div class="col-md-4">
                     <div class="widget">
-                        <h4 class="widget-title text-white mb-3">Get in Touch</h4>
-                        <address class="pe-xl-15 pe-xxl-17">Moonshine St. 14/05 Light City, London, United Kingdom
-                        </address>
-                        <a href="mailto:#">info@email.com</a><br /> +00 (123) 456 78 90
+                    <h4 class="widget-title">Kontak</h4>
+                    <p>(0321) 6855850</p>
                     </div>
                     <!-- /.widget -->
                 </div>
-                <!-- /column -->
-                <div class="col-md-4 col-lg-3">
+                <!--/column -->
+                <div class="col-md-4">
                     <div class="widget">
-                        <h4 class="widget-title text-white mb-3">Learn More</h4>
-                        <ul class="list-unstyled  mb-0">
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Our Story</a></li>
-                            <li><a href="#">Projects</a></li>
-                            <li><a href="#">Terms of Use</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                        </ul>
+                    <h4 class="widget-title">E-mail</h4>
+                    <p><a href="mai-amanatulummah@gmail.com" class="link-body">mai-amanatulummah@gmail.com</a>
                     </div>
                     <!-- /.widget -->
                 </div>
-                <!-- /column -->
-                <div class="col-md-12 col-lg-3">
-                    <div class="widget">
-                        <h4 class="widget-title text-white mb-3">Our Newsletter</h4>
-                        <p class="mb-5">Subscribe to our newsletter to get our news & deals delivered to you.
-                        </p>
-                        <div class="newsletter-wrapper">
-                            <!-- Begin Mailchimp Signup Form -->
-                            <div id="mc_embed_signup2">
-                                <form
-                                    action="https://elemisfreebies.us20.list-manage.com/subscribe/post?u=aa4947f70a475ce162057838d&amp;id=b49ef47a9a"
-                                    method="post" id="mc-embedded-subscribe-form2" name="mc-embedded-subscribe-form"
-                                    class="validate dark-fields" target="_blank" novalidate>
-                                    <div id="mc_embed_signup_scroll2">
-                                        <div class="mc-field-group input-group form-floating">
-                                            <input type="email" value="" name="EMAIL"
-                                                class="required email form-control" placeholder="Email Address"
-                                                id="mce-EMAIL2">
-                                            <label for="mce-EMAIL2">Email Address</label>
-                                            <input type="submit" value="Join" name="subscribe"
-                                                id="mc-embedded-subscribe2" class="btn btn-primary">
-                                        </div>
-                                        <div id="mce-responses2" class="clear">
-                                            <div class="response" id="mce-error-response2" style="display:none">
-                                            </div>
-                                            <div class="response" id="mce-success-response2"
-                                                style="display:none"></div>
-                                        </div>
-                                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input
-                                                type="text" name="b_ddc180777a163e0f9f66ee014_4b1bcfa0bc" tabindex="-1"
-                                                value=""></div>
-                                        <div class="clear"></div>
-                                    </div>
-                                </form>
-                            </div>
-                            <!--End mc_embed_signup-->
-                        </div>
-                        <!-- /.newsletter-wrapper -->
-                    </div>
-                    <!-- /.widget -->
+                <!--/column -->
                 </div>
-                <!-- /column -->
+                <!--/.row -->
+                <p>Copyright © PPDB Amanatul Ummah 2022.</p>
+                <nav class="nav social justify-content-center">
+                <a href="https://www.facebook.com/mai.amanatulummah.9"><i class="uil uil-facebook-f"></i></a>
+                <a href="http://www.mai-au.sch.id/"><i class="uil uil-dribbble"></i></a>
+                <a href="https://www.instagram.com/mai.amanatulummah.pacet/"><i class="uil uil-instagram"></i></a>
+                <a href="https://www.youtube.com/channel/UCu7xkBB8LZdrluR5ow1W27A"><i class="uil uil-youtube"></i></a>
+                </nav>
+                <!-- /.social -->
             </div>
-            <!--/.row -->
+            <!-- /column -->
+            </div>
+            <!-- /.row -->
         </div>
         <!-- /.container -->
     </footer>
