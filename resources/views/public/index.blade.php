@@ -538,13 +538,13 @@
     <!-- /section -->
 
     <!-- /.content-wrapper -->
-    <footer class="bg-soft-primary">
+    <footer class="bg-primary">
         <div class="container pb-12 text-center pt-5">
             <div class="row mt-n10 mt-lg-0">
                 <div class="col-xl-10 mx-auto">
                     <div class="row mb-3">
                         <div class="col-md-4">
-                            <div class="widget">
+                            <div class="widget text-white">
                                 <h4 class="widget-title">Alamat</h4>
                                 <address>Jalan KH. Abdul Chalim No.01, Kembang,<br> Kembangbelor, Kec. Pacet, Mojokerto
                                 </address>
@@ -553,7 +553,7 @@
                         </div>
                         <!--/column -->
                         <div class="col-md-4">
-                            <div class="widget">
+                            <div class="widget  text-white">
                                 <h4 class="widget-title">Kontak</h4>
                                 <p>(0321) 6855850</p>
                             </div>
@@ -561,17 +561,16 @@
                         </div>
                         <!--/column -->
                         <div class="col-md-4">
-                            <div class="widget">
+                            <div class="widget  text-white">
                                 <h4 class="widget-title">E-mail</h4>
-                                <p><a href="mai-amanatulummah@gmail.com"
-                                        class="link-body">mai-amanatulummah@gmail.com</a>
+                                <p><a href="mai-amanatulummah@gmail.com" class="link-body  text-white">mai-amanatulummah@gmail.com</a>
                             </div>
                             <!-- /.widget -->
                         </div>
                         <!--/column -->
                     </div>
                     <!--/.row -->
-                    <p>Copyright © PPDB Amanatul Ummah 2022.</p>
+                    <p class=" text-white">Copyright © PPDB Amanatul Ummah 2022.</p>
                     <nav class="nav social justify-content-center">
                         <a href="https://www.facebook.com/mai.amanatulummah.9"><i class="uil uil-facebook-f"></i></a>
                         <a href="http://www.mai-au.sch.id/"><i class="uil uil-dribbble"></i></a>
