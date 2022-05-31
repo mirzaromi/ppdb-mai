@@ -1,0 +1,102 @@
+body {
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.register {
+
+    width: 100wh;
+    height: 150%;
+}
+
+.regis-title {
+    padding: 2% 5% 2% 5%;
+}
+
+.regis-title h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.regis-panel {
+    width: 100wh;
+    height: 700px;
+    margin: 5% 10% 0%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    border-radius: 20px;
+}
+
+.regis-image {
+    width: 40%;
+    height: 100%;
+    background-color: chocolate;
+    display: inline-block;
+}
+
+.image-register {
+    width: 40%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+.regis-form {
+    display: inline-block;
+    width: 60%;
+    height: 100%;
+    padding: 60px 40px;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.regis-message {
+    margin-bottom: 1.5rem;
+}
+
+.form-action {
+    position: relative;
+    top: 50px;
+}
+
+.regis-form h1, h4 {
+    color: #0e5a40;
+}
+
+.regis-form p {
+    color: #294b31;
+}
+
+.btn-login {
+    color: #eefcf1;
+}
+
+@media only screen and (max-width: 766px) {
+    .regis-image {
+        display: none;
+    }
+
+    .regis-form {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+        overflow: scroll;
+        overflow-x: hidden;
+        overflow-y: hidden;
+
+    }
+
+    .regis-panel {
+        width: 100wh;
+        height: 670px;
+        margin: 5% 10% 0%;
+        overflow: hidden;
+        position: relative;
+        display: flex;
+        border-radius: 20px;
+    }
+}

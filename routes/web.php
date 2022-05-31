@@ -20,6 +20,18 @@ Route::get('/', function () {
     return view('public.index');
 });
 
+Route::get('/login', function () {
+    return view('public.login');
+});
+
+Route::get('/register', function () {
+    return view('public.register');
+});
+
+Route::get('/post_register', function () {
+    return view('public.post_register');
+});
+
 Route::get('/admin', function(){
     return view("admin.index");
 });
