@@ -41,7 +41,7 @@
                     <div class="navbar-other w-100 d-flex ms-auto">
                         <ul class="navbar-nav flex-row align-items-center ms-auto" data-sm-skip="true">
                             <li class="nav-item d-block">
-                                <a href="/assets/public/contact.html"
+                                <a href="/"
                                     class="btn btn-sm btn-primary rounded-pill">Home</a>
                             </li>
                         </ul>
