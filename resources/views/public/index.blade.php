@@ -51,7 +51,7 @@
                         <ul class="navbar-nav flex-row align-items-center ms-auto" data-sm-skip="true">
 
                             <li class="nav-item d-none d-md-block">
-                                <a href="/assets/public/contact.html"
+                                <a href="/login"
                                     class="btn btn-sm btn-lg btn-primary rounded-pill">Masuk</a>
                             </li>
                             <li class="nav-item d-lg-none">
@@ -77,7 +77,7 @@
                             <p class="lead fs-24 lh-sm px-md-5 px-xl-15 px-xxl-10 ">pendaftaran peserta didik baru</p>
                             <h2 class="display-1 mb-4">MA ISTIMEWA AMANATUL UMMAH</h2>
                             <li class="nav-item d-none d-md-block">
-                                <a href="/assets/public/contact.html" class="btn  btn-primary btn-lg">Daftar</a>
+                                <a href="/register" class="btn  btn-primary btn-lg">Daftar</a>
                             </li>
                         </div>
                         <!-- /column -->

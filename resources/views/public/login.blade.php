@@ -41,8 +41,7 @@
                     <div class="navbar-other w-100 d-flex ms-auto">
                         <ul class="navbar-nav flex-row align-items-center ms-auto" data-sm-skip="true">
                             <li class="nav-item d-block">
-                                <a href="/assets/public/contact.html"
-                                    class="btn btn-sm btn-primary rounded-pill">Home</a>
+                                <a href="/" class="btn btn-sm btn-primary rounded-pill">Home</a>
                             </li>
                         </ul>
                         <!-- /.navbar-nav -->
@@ -55,28 +54,41 @@
         </header>
         <div class="regis-panel">
             <div class="regis-image">
-                <img class="image-register" src="/assets/public/assets/img/AU.jpg" alt="amanatul ummah register image" />
+                <img class="image-register" src="/assets/public/assets/img/AU.jpg"
+                    alt="amanatul ummah register image" />
                 <!-- <img class="image-register" src="" alt="amanatul ummah register image" /> -->
             </div>
             <div class="regis-form bg-pale-primary">
+                @if (session()->has('gagal'))
+                    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                        {{ session('gagal') }}
+                        <button type="button" class="btn-close" data-bs-dismiss="alert"
+                            aria-label="Close"></button>
+                    </div>
+                @endif
                 <h1 class="regis-message">Selamat Datang di PPDB MAI Amanatul Ummah</h1>
                 <h4>Silahkan masukkan nomor peserta dan password untuk login</h4>
                 <p>Nomor Peserta</p>
-                <div class="form-floating mb-4">
-                    <input id="textInputExample" type="text" class="form-control" placeholder="Text Input" disabled>
-                    <label for="textInputExample">Nomor Peserta</label>
-                </div>
-                <p>Password</p>
-                <div class="form-floating mb-4">
-                    <input id="textInputExample" type="text" class="form-control" placeholder="Text Input" disabled>
-                    <label for="textInputExample">Password</label>
-                </div>
-                <div class="form-action">
-                    <p>Belum punya akun? silahkan <a href="./register.html">daftar</a></p>
-                    <div class="d-grid">
-                        <button class="btn btn-primary btn-login" type="button">Go to Login</button>
+                <form action="/user_login" method="post">
+                    @csrf
+                    <div class="form-floating mb-4">
+                        <input id="textInputExample" type="text" class="form-control" placeholder="Text Input"
+                            name="username">
+                        <label for="textInputExample">Nomor Peserta</label>
                     </div>
-                </div>
+                    <p>Password</p>
+                    <div class="form-floating mb-4">
+                        <input id="textInputExample" type="text" class="form-control" placeholder="Text Input"
+                            name="password">
+                        <label for="textInputExample">Password</label>
+                    </div>
+                    <div class="form-action">
+                        <p>Belum punya akun? silahkan <a href="/register">daftar</a></p>
+                        <div class="d-grid">
+                            <button class="btn btn-primary btn-login" type="submit">Go to Login</button>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
