@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\LalaController;
+use App\Http\Controllers\UserLoginController;
 use App\Models\Admin;
 use Illuminate\Support\Facades\Route;
 
@@ -32,14 +33,16 @@ Route::get('/post_register', function () {
     return view('public.post_register');
 });
 
-Route::get('/admin', function(){
+Route::get('/admin', function () {
     return view("admin.index");
 });
 
-Route::get('/public', [LalaController::class,'index']);
+Route::get('/public', [LalaController::class, 'index']);
+
+Route::post('/user_login', [UserLoginController::class, 'authenticate']);
+Route::get('/logout', [UserLoginController::class, 'logout']);
 
 Route::get('/admin-lagi', [AdminController::class]);
-Route::get('/user', function(){
+Route::get('/user', function () {
     return view("user.index");
-});
-
+})->middleware('auth');
