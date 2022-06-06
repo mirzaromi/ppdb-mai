@@ -4,6 +4,7 @@ use App\Models\Admin;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LalaController;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\UserLoginController;
 
 /*
@@ -25,9 +26,7 @@ Route::get('/login', function () {
     return view('public.login');
 });
 
-Route::get('/register', function () {
-    return view('public.register');
-});
+Route::resource('/register', RegisterController::class);
 
 Route::get('/post_register', function () {
     return view('public.post_register');
