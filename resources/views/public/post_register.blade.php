@@ -63,12 +63,12 @@
                 <h4>Berikut adalah nomor peserta dan password anda</h4>
                 <p>Nomor Peserta</p>
                 <div class="form-floating mb-4">
-                    <input id="textInputExample" type="text" class="form-control" placeholder="Text Input" disabled>
+                    <input id="textInputExample" type="text" class="form-control" placeholder="Text Input" value="{{ request()->get('username') }}" disabled>
                     <label for="textInputExample">Nomor Peserta</label>
                 </div>
                 <p>Password</p>
                 <div class="form-floating mb-4">
-                    <input id="textInputExample" type="text" class="form-control" placeholder="Text Input" disabled>
+                    <input id="textInputExample" type="text" class="form-control" placeholder="Text Input" value="{{ request()->get('password') }}" disabled>
                     <label for="textInputExample">Password</label>
                 </div>
                 <div class="form-action">

@@ -5,6 +5,7 @@ namespace Database\Seeders;
 use Illuminate\Database\Seeder;
 use App\Models\User;
 use App\Models\Register;
+use App\Models\NumRegister;
 
 class DatabaseSeeder extends Seeder
 {
@@ -35,6 +36,10 @@ class DatabaseSeeder extends Seeder
             'nama_ibu' => 'Siti Munawaroh',
             'email' => 'mirzaromi14@gmail.com',
             'jalur_sks' => 'sks2_tulis'
+        ]);
+        
+        NumRegister::create([
+            "number" => 0
         ]);
 
     }

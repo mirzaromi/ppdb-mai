@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Models\Register;
+use App\Models\NumRegister;
+use App\Models\User;
 use Illuminate\Http\Request;
 use App\Http\Requests\UpdateRegisterRequest;
 
@@ -34,7 +36,7 @@ class RegisterController extends Controller
      * @param  \App\Http\Requests\StoreRegisterRequest  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(Request $request, NumRegister $NumRegister)
     {
         $validate = $request->validate([
             'nama' => 'required',
@@ -51,9 +53,28 @@ class RegisterController extends Controller
             'jalur_sks' => 'required',
         ]);
 
+        $num = NumRegister::select("number")->first();
+        $num_update = $num->number;
+        $num_update += 1;
+        $number = sprintf("%04d", $num_update);
+        $username = "MAI".date("Y")."01".$number;
+
+        $rand_pass = rand(10000000, 99999999);
+        $password = bcrypt($rand_pass);
+        $user_data = [
+            "username" => $username,
+            "password" => $password,
+        ];
+
         Register::create($validate);
 
-        return redirect('/register');
+        User::create($user_data);
+        NumRegister::where('id',1)->update(["number" => $num_update]);
+
+        return redirect()->route('post_register', [
+            'username' => $username,
+            'password' => $rand_pass
+        ]);
     }
 
     /**
