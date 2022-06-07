@@ -35,7 +35,8 @@ class DatabaseSeeder extends Seeder
             'nama_ayah' => 'Makromi',
             'nama_ibu' => 'Siti Munawaroh',
             'email' => 'mirzaromi14@gmail.com',
-            'jalur_sks' => 'sks2_tulis'
+            'jalur_sks' => 'sks2_tulis',
+            'user_id' => 1
         ]);
         
         NumRegister::create([

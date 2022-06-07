@@ -8,6 +8,7 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
 
+use App\Models\Register;
 
 class User extends Authenticatable
 {
@@ -41,6 +42,11 @@ class User extends Authenticatable
      *
      * @var array
      */
+
+    public function register()
+    {
+        return $this->hasOne(Register::class);
+    }
 
 
 }

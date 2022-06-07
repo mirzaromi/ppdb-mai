@@ -27,6 +27,8 @@ class CreateRegistersTable extends Migration
             $table->string('nama_ibu');
             $table->string('email');
             $table->string('jalur_sks');
+            $table->foreignId('user_id');
+            
             $table->timestamps();
         });
     }
