@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use App\Models\User;
+use App\Models\NumRegister;
 use App\Models\Register;
 
 class DatabaseSeeder extends Seeder
@@ -20,6 +21,10 @@ class DatabaseSeeder extends Seeder
         User::create([
             'username' => '1234512345',
             'password' => bcrypt('ppdbmai'),
+        ]);
+
+        NumRegister::create([
+            'number' => 0
         ]);
 
         Register::create([

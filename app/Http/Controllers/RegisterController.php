@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Models\Register;
+use App\Models\NumRegister;
+use App\Models\User;
 use Illuminate\Http\Request;
 use App\Http\Requests\UpdateRegisterRequest;
 
@@ -52,6 +54,20 @@ class RegisterController extends Controller
         ]);
 
         Register::create($validate);
+
+        $num = NumRegister::first();
+        $number = $num->number;
+        $number += 1; 
+        NumRegister::where('id',1)->update(["number" => $number]);
+        $number_reg = sprintf("%03d", $number);
+        $username = 'MAI'.date("Y").'01'.$number_reg;
+        $password = rand(10000000,99999999);
+        // dd($password);
+        User::create([
+            'username' => $username,
+            'password' => bcrypt($password),
+        ]);
+        
 
         return redirect('/register');
     }
