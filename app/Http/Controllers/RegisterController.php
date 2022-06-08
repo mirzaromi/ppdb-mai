@@ -66,11 +66,16 @@ class RegisterController extends Controller
             "password" => $password,
         ];
 
-        Register::create($validate);
+        
 
         User::create($user_data);
         NumRegister::where('id',1)->update(["number" => $num_update]);
 
+        $user_id = User::select('id')->orderBy('id', 'desc')->first();
+
+        $validate['user_id'] = $user_id->id;
+
+        Register::create($validate);
         return redirect()->route('post_register', [
             'username' => $username,
             'password' => $rand_pass
