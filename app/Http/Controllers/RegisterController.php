@@ -38,21 +38,24 @@ class RegisterController extends Controller
      */
     public function store(Request $request, NumRegister $NumRegister)
     {
+        
         $validate = $request->validate([
             'nama' => 'required',
             'tempat_lahir' => 'required',
             'tanggal_lahir' => 'required',
-            'nisn' => 'required',
+            'nisn' => 'required|integer',
             'jenis_kelamin' => 'required',
             'alamat' => 'required',
             'sekolah_asal' => 'required',
-            'no_hp' => 'required',
+            'no_hp' => 'required|integer|digits_between:7,14',
             'nama_ayah' => 'required',
             'nama_ibu' => 'required',
-            'email' => 'required',
+            'email' => 'required|email:rfc,dns',
             'jalur_sks' => 'required',
         ]);
 
+        dd($validate);
+        
         $num = NumRegister::select("number")->first();
         $num_update = $num->number;
         $num_update += 1;

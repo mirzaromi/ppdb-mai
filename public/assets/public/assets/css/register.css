@@ -52,6 +52,12 @@ body {
     overflow-x: hidden;
 }
 
+.invalid-form {
+    font-size: 0.65rem;
+    color: #eb6d6d;
+    margin-left: 5px;
+}
+
 @media only screen and (max-width: 766px) {
     .regis-panel {
         width: 100wh;

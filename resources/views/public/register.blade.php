@@ -66,63 +66,116 @@
             <div class="regis-form bg-pale-primary">
                 <form action="/register" method="post">
                     @csrf
+                    
                     <div class="form-floating mb-4">
                         <input id="textInputExample" type="text" class="form-control" placeholder="Text Input"
-                            name="nama">
+                            name="nama" value="{{ old('nama') }}" required>
                         <label for="textInputExample">Nama</label>
+                        @error('nama')
+                            <div class="invalid-form">
+                                {{ $message }}
+                            </div> 
+                        @enderror
                     </div>
-                    <div class="form-floating mb-4 w-md-21 d-inline-block form-input">
-                        <input id="textInputExample" type="text" class="form-control" placeholder="Text Input" name="tempat_lahir">
+                    
+                    <div class="form-floating mb-4 w-md-21 form-input">
+                        <input id="textInputExample" type="text" class="form-control" placeholder="Text Input" name="tempat_lahir" value="{{ old('tempat_lahir') }}" required>
                         <label for="textInputExample">Tempat Lahir</label>
+                        @error('tempat_lahir')
+                            <div class="invalid-form">
+                                {{ $message }}
+                            </div>
+                        @enderror
+                        
                     </div>
-                    <div class="form-floating mb-4 w-md-22 d-inline-block form-input">
-                        <input id="textInputExample" type="text" class="form-control" placeholder="Text Input" name="tanggal_lahir">
+                    <div class="form-floating mb-4 w-md-22 form-input">
+                        <input id="textInputExample" type="date" class="form-control" placeholder="Text Input" name="tanggal_lahir" value="{{ old('tanggal_lahir') }}" required>
                         <label for="textInputExample">Tanggal Lahir</label>
+                        @error('tanggal_lahir')
+                            <div class="invalid-form">
+                                {{ $message }}
+                            </div>
+                        @enderror
                     </div>
-                    <div class="form-floating mb-4 w-md-21 d-inline-block form-input ">
-                        <input id="textInputExample" type="text" class="form-control" placeholder="Text Input" name="nisn">
+                    <div class="form-floating mb-4 w-md-21 form-input ">
+                        <input id="textInputExample" type="text" class="form-control" placeholder="Text Input" name="nisn" value="{{ old('nisn') }}" required>
                         <label for="textInputExample">NISN</label>
+                        @error('nisn')
+                            <div class="invalid-form">
+                                {{ $message }}
+                            </div>
+                        @enderror
                     </div>
                     <p>Jenis Kelamin</p>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="jenis_kelamin" id="flexRadioDefault1">
+                        <input class="form-check-input" type="radio" value="l" name="jenis_kelamin" id="flexRadioDefault1" checked>
                         <label class="form-check-label" for="flexRadioDefault1"> Laki-laki </label>
                     </div>
                     <div class="form-check mb-4">
-                        <input class="form-check-input" type="radio" name="jenis_kelamin" id="flexRadioDefault2"
-                            checked>
+                        <input class="form-check-input" type="radio" value="p" name="jenis_kelamin" id="flexRadioDefault2"
+                            >
                         <label class="form-check-label" for="flexRadioDefault2"> Perempuan </label>
                     </div>
                     <div class="form-floating mb-4 form-input">
-                        <input id="textInputExample" type="text" class="form-control" placeholder="Text Input" name="alamat">
+                        <input id="textInputExample" type="text" class="form-control" placeholder="Text Input" name="alamat" value="{{ old('alamat') }}">
                         <label for="textInputExample">Alamat</label>
+                        @error('alamat')
+                            <div class="invalid-form">
+                                {{ $message }}
+                            </div>
+                        @enderror
                     </div>
-                    <div class="form-floating mb-4 w-md-24 d-inline-block form-input">
-                        <input id="textInputExample" type="text" class="form-control" placeholder="Text Input" name="sekolah_asal">
+                    <div class="form-floating mb-4 w-md-24 form-input">
+                        <input id="textInputExample" type="text" class="form-control" placeholder="Text Input" name="sekolah_asal" value="{{ old('sekolah_asal') }}" required>
                         <label for="textInputExample">Sekolah Asal</label>
+                        @error('sekolah_asal')
+                            <div class="invalid-form">
+                                {{ $message }}
+                            </div>
+                        @enderror
                     </div>
-                    <div class="form-floating mb-4 w-md-24 d-inline-block form-input">
-                        <input id="textInputExample" type="text" class="form-control" placeholder="Text Input" name="no_hp">
+                    <div class="form-floating mb-4 w-md-24 form-input">
+                        <input id="textInputExample" type="text" class="form-control" placeholder="Text Input" name="no_hp" value="{{ old('no_hp') }}" required>
                         <label for="textInputExample">No Hp</label>
+                        @error('no_hp')
+                            <div class="invalid-form">
+                                {{ $message }}
+                            </div>
+                        @enderror
                     </div>
-                    <div class="form-floating mb-4 w-md-21 d-inline-block form-input">
-                        <input id="textInputExample" type="text" class="form-control" placeholder="Text Input" name="nama_ayah">
+                    <div class="form-floating mb-4 w-md-21 form-input">
+                        <input id="textInputExample" type="text" class="form-control" placeholder="Text Input" name="nama_ayah" value="{{ old('nama_ayah') }}" required>
                         <label for="textInputExample">Nama Ayah</label>
+                        @error('nama_ayah')
+                            <div class="invalid-form">
+                                {{ $message }}
+                            </div>
+                        @enderror
                     </div>
-                    <div class="form-floating mb-4 w-md-21 d-inline-block form-input">
-                        <input id="textInputExample" type="text" class="form-control" placeholder="Text Input" name="nama_ibu">
+                    <div class="form-floating mb-4 w-md-21 form-input">
+                        <input id="textInputExample" type="text" class="form-control" placeholder="Text Input" name="nama_ibu" value="{{ old('nama_ibu') }}" required>
                         <label for="textInputExample">Nama Ibu</label>
+                        @error('nama_ibu')
+                            <div class="invalid-form">
+                                {{ $message }}
+                            </div>
+                        @enderror
                     </div>
                     <div class="form-floating mb-4 w-md-25 form-input">
-                        <input id="textInputExample" type="text" class="form-control" placeholder="Text Input" name="email">
+                        <input id="textInputExample" type="text" class="form-control" placeholder="Text Input" name="email" value="{{ old('email') }}" required>
                         <label for="textInputExample">Email</label>
+                        @error('email')
+                            <div class="invalid-form">
+                                {{ $message }}
+                            </div>
+                        @enderror
                     </div>
                     <div class="form-select-wrapper mb-4">
                         <select class="form-select" aria-label="Default select example" name="jalur_sks">
                             <option value="1">SKS 2 Tahun Jalur Akademik</option>
                             <option value="2">SKS 2 Tahun Jalur Prestasi</option>
-                            <option value="1">SKS 3 Tahun Jalur Akademik</option>
-                            <option value="2">SKS 3 Tahun Jalur Prestasi</option>
+                            <option value="3">SKS 3 Tahun Jalur Akademik</option>
+                            <option value="4">SKS 3 Tahun Jalur Prestasi</option>
 
                         </select>
                     </div>
