@@ -69,7 +69,10 @@ class RegisterController extends Controller
         ]);
         
 
-        return redirect('/register');
+        return redirect()->route('post_register',[
+            'username' => $username,
+            'password' => $password
+        ]);
     }
 
     /**

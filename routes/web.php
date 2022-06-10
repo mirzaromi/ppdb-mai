@@ -30,7 +30,7 @@ Route::resource('/register', RegisterController::class);
 
 Route::get('/post_register', function () {
     return view('public.post_register');
-});
+})->name('post_register');
 
 Route::get('/admin', function(){
     return view("admin.index");
