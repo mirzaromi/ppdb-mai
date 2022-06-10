@@ -155,7 +155,6 @@
                                 class="btn d-block w-100 btn-danger text-white" target="_blank">Upgrade to Pro</a>
                         </li>
                     </ul>
-
                 </nav>
                 <!-- End Sidebar navigation -->
             </div>
@@ -181,7 +180,7 @@
                                 <li class="breadcrumb-item active" aria-current="page">Home</li>
                             </ol>
                         </nav>
-                        <h1 class="mb-0 fw-bold">Selamat Datang ("Nama")</h1>
+                        <h1 class="mb-0 fw-bold">Selamat Datang {{ $data->nama }}</h1>
                     </div>
                     <div class="col-6">
                         <div class="text-end upgrade-btn">

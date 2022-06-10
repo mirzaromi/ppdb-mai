@@ -54,7 +54,7 @@ class RegisterController extends Controller
             'jalur_sks' => 'required',
         ]);
 
-        dd($validate);
+        // dd($validate);
         
         $num = NumRegister::select("number")->first();
         $num_update = $num->number;

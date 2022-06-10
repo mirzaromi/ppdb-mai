@@ -42,7 +42,11 @@ Route::get('/logout',[UserLoginController::class,'logout']);
 Route::get('/public', [LalaController::class,'index']);
 
 Route::get('/admin-lagi', [AdminController::class]);
-Route::get('/user', function(){
-    return view("user.index");
+Route::get('/user', function() {
+    $data = Illuminate\Support\Facades\Auth::user();
+    
+    return view("user.index", [
+        'data' => App\Models\Register::where('id',$data->id)->first(),
+    ]);
 })->middleware('auth');
 
