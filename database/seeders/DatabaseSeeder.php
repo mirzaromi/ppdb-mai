@@ -19,7 +19,12 @@ class DatabaseSeeder extends Seeder
         // \App\Models\User::factory(10)->create();
 
         User::create([
-            'username' => '1234512345',
+            'username' => 'MAI202201001',
+            'password' => bcrypt('ppdbmai'),
+        ]);
+
+        User::create([
+            'username' => 'MAI202201002',
             'password' => bcrypt('ppdbmai'),
         ]);
 
@@ -37,6 +42,22 @@ class DatabaseSeeder extends Seeder
             'email' => 'mirzaromi14@gmail.com',
             'jalur_sks' => 'sks2_tulis',
             'user_id' => 1
+        ]);
+        
+        Register::create([
+            'nama' => 'Jalaluddin Asysyuti',
+            'tempat_lahir' => 'Lamongan',
+            'tanggal_lahir' => '2005-06-12',
+            'nisn' => 123456789,
+            'jenis_kelamin' => 'l',
+            'alamat' => 'Mantup Lamongan',
+            'sekolah_asal' => 'MTs Unggulan Amanatul Ummah Pacet',
+            'no_hp' => '087751655141',
+            'nama_ayah' => 'Solikin',
+            'nama_ibu' => 'Mukijah',
+            'email' => 'adin@gmail.com',
+            'jalur_sks' => 'sks2_tulis',
+            'user_id' => 2
         ]);
         
         NumRegister::create([

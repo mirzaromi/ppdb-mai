@@ -12,11 +12,14 @@
         content="Flexy Admin Lite is powerful and clean admin dashboard template, inpired from Bootstrap Framework">
     <meta name="robots" content="noindex,nofollow">
     <title>Flexy Admin Lite Template by WrapPixel</title>
+    <link rel="stylesheet" href="/assets/user/user.css">
     <link rel="canonical" href="https://www.wrappixel.com/templates/Flexy-admin-lite/" />
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/user/flexy-bootstrap-lite/assets/images/favicon.png">
     <!-- Custom CSS -->
     <link href="/assets/user/flexy-bootstrap-lite/dist/css/style.min.css" rel="stylesheet">
+    {{-- form uplaod --}}
+    <link rel="stylesheet" href="/assets/admin/AdminLTE-3.1.0/dist/css/adminlte.min.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -54,9 +57,11 @@
                         <b class="logo-icon">
                             <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
                             <!-- Dark Logo icon -->
-                            <img src="/img/Logo MAI Lengkap Berwarna.png" alt="homepage" class="dark-logo" width="200px" />
+                            <img src="/img/Logo MAI Lengkap Berwarna.png" alt="homepage" class="dark-logo"
+                                width="200px" />
                             <!-- Light Logo icon -->
-                            <img src="/assets/user/flexy-bootstrap-lite/assets/images/logo-light-icon.png" alt="homepage" class="light-logo" />
+                            <img src="/assets/user/flexy-bootstrap-lite/assets/images/logo-light-icon.png"
+                                alt="homepage" class="light-logo" />
                         </b>
                         <!--End Logo icon -->
                         <!-- Logo text -->
@@ -98,8 +103,8 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark pro-pic" href="#"
                                 id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                <img src="/assets/user/flexy-bootstrap-lite/assets/images/users/profile.png" alt="user" class="rounded-circle"
-                                    width="31">
+                                <img src="/assets/user/flexy-bootstrap-lite/assets/images/users/profile.png" alt="user"
+                                    class="rounded-circle" width="31">
                             </a>
                             <ul class="dropdown-menu dropdown-menu-end user-dd animated"
                                 aria-labelledby="navbarDropdown">
@@ -150,10 +155,7 @@
                         <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
                                 href="error-404.html" aria-expanded="false"><i class="mdi mdi-alert-outline"></i><span
                                     class="hide-menu">404</span></a></li>
-                        <li class="text-center p-40 upgrade-btn">
-                            <a href="https://www.wrappixel.com/templates/flexy-bootstrap-admin-template/"
-                                class="btn d-block w-100 btn-danger text-white" target="_blank">Upgrade to Pro</a>
-                        </li>
+
                     </ul>
                 </nav>
                 <!-- End Sidebar navigation -->
@@ -172,7 +174,7 @@
             <!-- ============================================================== -->
             <div class="page-breadcrumb">
                 <div class="row align-items-center">
-                    <div class="col-6">
+                    <div class="col-12">
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb mb-0 d-flex align-items-center">
                                 <li class="breadcrumb-item"><a href="index.html" class="link"><i
@@ -182,12 +184,7 @@
                         </nav>
                         <h1 class="mb-0 fw-bold">Selamat Datang {{ $data->nama }}</h1>
                     </div>
-                    <div class="col-6">
-                        <div class="text-end upgrade-btn">
-                            <a href="https://www.wrappixel.com/templates/flexy-bootstrap-admin-template/"
-                                class="btn btn-primary text-white" target="_blank">Upgrade to Pro</a>
-                        </div>
-                    </div>
+
                 </div>
             </div>
             <!-- ============================================================== -->
@@ -201,10 +198,74 @@
                 <!-- Start Page Content -->
                 <!-- ============================================================== -->
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-sm-6">
                         <div class="card">
                             <div class="card-body">
-                                This is some text within a card block.
+                                <h5 class="card-title">Status Pendaftaran</h5>
+                                <p class="card-text">Data dan berkas masih diproses</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Kelengkapan Pendaftaran</h5>
+                                <table class="table">
+                                    <tr>
+                                        <td>Biodata dan Foto</td>
+                                        <td>:</td>
+                                        <td><i class="fa-solid fa-check" style="color: green"></i> Lengkap</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Bukti Pembayaran</td>
+                                        <td>:</td>
+                                        <td><i class="fa-solid fa-xmark" style="color: red"></i> Belum</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Upload Bukti Pendaftaran</h5>
+                                <p class="card-text">Upload bukti pendaftaran disini</p>
+                                <form action="" method="post">
+                                    @csrf
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <div class="custom-file">
+                                                <input type="file" class="custom-file-input" id="exampleInputFile">
+                                                <label class="custom-file-label" for="exampleInputFile">Choose
+                                                    file</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                                <a href="#" class="btn btn-primary">Upload</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Next Step</h5>
+                                <p class="card-text">Tunggu verifikasi dari admin yaa, kalau masih belum
+                                    diverifikasi silahkan hubungi admin</p>
+                                <a href="#" class="btn btn-primary">Chat admin</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Pengumuman Terbaru</h5>
+                                <p class="card-text">Tes Akan dilaksanakan pada tanggal 26 Juni 2022</p>
                             </div>
                         </div>
                     </div>
@@ -254,6 +315,25 @@
     <script src="/assets/user/flexy-bootstrap-lite/dist/js/sidebarmenu.js"></script>
     <!--Custom JavaScript -->
     <script src="/assets/user/flexy-bootstrap-lite/dist/js/custom.js"></script>
+
+    <script src="https://kit.fontawesome.com/8ed8ec659b.js" crossorigin="anonymous"></script>
+
+    <!-- jQuery -->
+    <script src="/assets/admin/AdminLTE-3.1.0/plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap 4 -->
+    <script src="/assets/admin/AdminLTE-3.1.0/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- bs-custom-file-input -->
+    <script src="/assets/admin/AdminLTE-3.1.0/plugins/bs-custom-file-input/bs-custom-file-input.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="/assets/admin/AdminLTE-3.1.0/dist/js/adminlte.min.js"></script>
+    <!-- AdminLTE for demo purposes -->
+    <script src="/assets/admin/AdminLTE-3.1.0/dist/js/demo.js"></script>
+    <!-- Page specific script -->
+    <script>
+        $(function() {
+            bsCustomFileInput.init();
+        });
+    </script>
 </body>
 
 </html>
